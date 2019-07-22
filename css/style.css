@@ -1,0 +1,663 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: rgb(12, 67, 140) !important;
+}
+
+.navbar-brand{
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.login{
+    position: absolute;
+    display:inline-block;
+    top: 40px;
+    right: 50px;
+}
+
+.login img
+{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.login h6
+{
+    display: inline-block;
+    color: white;
+}
+
+.login .sep
+{
+    color: rgb(12, 67, 140);
+}
+
+.login2
+{
+    display: none;
+}
+
+.login2 img
+{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.login2 h6
+{
+    display: inline-block;
+    color: white;
+}
+
+.login2 .sep
+{
+    color: rgb(20, 20, 20);
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-center
+{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-center li
+{
+    margin: auto;
+}
+
+.menu-separator
+{
+    width: 1px;
+    height: auto;
+    background-color: black;
+}
+
+.bookbutton
+{
+    margin: auto;
+    width: 97%;
+}
+
+.registerbtn
+{
+    color: white;
+    border-color: white;
+    margin-right: 40px;
+}
+
+.registerbtn:hover
+{
+    background-color: rgb(119, 52, 106);
+    border-color: rgb(79, 3, 64);
+}
+
+.topbar
+{
+    background-color: rgb(20,20,20);
+    height: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  background-color: rgb(55, 55, 55);
+}
+
+.carousel-inner
+{
+    height: auto;
+}
+
+/*FLEXISEL*/
+
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+    overflow: auto;
+}
+
+.nbs-flexisel-inner {
+    position: relative;
+    overflow: hidden;
+    float:left;
+    width:100%;
+    background-color: rgb(40,40,40);
+    background-image: url('https://www.sedhna.com/img/background.png');
+    padding: 10px; 
+    color: white;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    max-width: auto;
+    max-height: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    padding:5px 10px;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;      
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top: 50%;
+    transform: translateY(-50%);   
+    background: rgba(0,0,0,0.5);
+    color: #fff;     
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+}
+
+.nbs-flexisel-nav-left:before {
+    content: "<"
+}
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;    
+}
+
+.nbs-flexisel-nav-right:before {
+    content: ">"
+}
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.4;
+}
+
+.col-sm
+{
+    padding: 20px;
+}
+
+.divider
+{
+    height: 10px;
+    background-color: rgb(20,20,20);
+}
+
+
+.section
+{
+    background-color: rgb(12, 67, 140);
+}
+
+.section img
+{
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section p
+{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+
+.film-list
+{
+    background-color: rgb(45,45,45);
+    background-image: url("../img/back2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+}
+
+.film-list .container
+{
+    width: 100%;
+    margin: auto;
+}
+
+.film-list .container h4
+{
+    text-align: center;
+    color: rgb(220,220,220);
+    padding: 15px 0 0 0;
+}
+
+.comingsoon
+{
+    height: 320px;
+    background-color: rgb(40,40,40);
+}
+
+
+.container-fluid
+{
+    width: 60%;
+    margin: auto;
+}
+
+.findus
+{
+    height: 240px;
+    width: auto;
+    background-image: url("../img/back1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(65,65,65);
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.times
+{
+    width: 32%;
+    margin: auto;
+
+}
+
+.booknowdiv
+{
+    width: 33%;
+    margin: auto;
+}
+
+
+
+.address
+{
+    width: 33%;
+    margin: auto;
+}
+
+.customfooter
+{
+    background-color: rgb(45,45,45);
+    color: white;
+
+}
+
+.footerlinks ul li
+{
+    list-style-type: square;
+}
+
+.footerlinks ul li a
+{
+    color: white !important;
+}
+
+.card
+{
+    padding:10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    opacity: 0.9;
+}
+
+.card .btn
+{
+    padding: 8px;
+}
+
+#map
+{
+    height: 280px;
+    width: 100%;
+    background-color: rgb(20,20,20);
+}
+
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {display:none;}
+.gmnoprint div {background:none !important;}
+a[href^="http://maps.google.com/maps"]{display:none !important;}
+a[href^="https://maps.google.com/maps"]{display:none !important;}
+
+/* LOGIN */
+
+.logindiv
+{
+    height: 710px;
+    width: 100%;
+}
+
+.tabs
+{
+    position: absolute;
+    width: 40%;
+    margin-top: 57px;
+    margin-left: 30%;
+    color: white;
+    background-color: rgb(25,25,25);
+    opacity: 0.9;
+    border-radius: 15px 15px 0 0;
+}
+
+.tabs h5
+{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#loginTab
+{
+    background-color: rgb(45,45,45);
+    padding: 10px;
+    width: 50%;
+    border-radius: 15px 0 0 0;
+}
+
+#registerTab
+{
+    background-color: rgb(25,25,25);
+    padding: 10px;
+    width: 50%;
+    border-radius: 0 15px 0 0;
+}
+
+#loginTab:hover
+{
+    cursor: pointer;
+}
+
+#registerTab:hover
+{
+    cursor: pointer;
+    background-color: rgb(35,35,35);
+}
+
+#login-form
+{
+    position: absolute;
+    width: 40%;
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 30%;
+    color: white;
+    background-color: rgb(45,45,45);
+    opacity: 0.9;
+    border-radius: 0 0 15px 15px;
+}
+
+#login-form label
+{
+    width: 100%;
+}
+
+
+#login-form input
+{
+    width: 100%;
+}
+
+#login-form .submit
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#login-form h6
+{
+    text-align: center;
+}
+
+
+#register-form
+{
+    display: none;
+    position: absolute;
+    width: 40%;
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 30%;
+    color: white;
+    background-color: rgb(45,45,45);
+    opacity: 0.9;
+    border-radius: 0 0 15px 15px;
+}
+
+#register-form label
+{
+    display: inline-block;
+    width: 29%;
+}
+
+
+#register-form input
+{
+    display: inline-block;
+    width: 65%;
+}
+
+#register-form .submit
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#register-form .checkL
+{
+    display: inline-block;
+    width: 90%;
+}
+
+#register-form .checkI
+{
+    display: inline-block;
+    width: 5%;
+}
+
+#register-form h6
+{
+    text-align: center;
+}
+
+.trailer-background
+{
+    margin-top: 100px;
+    background-image: url('https://www.sedhna.com/img/background.png');
+}
+
+.trailer
+{
+    margin: auto;
+    width: 60%;
+    color: white;
+    padding: 15px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews
+{
+    height: auto;
+    color: white;
+}
+
+.reviews h2
+{
+    margin-bottom: -25px;
+}
+
+.reviewcard
+{
+    padding: 20px;
+}
+
+.reviewForm
+{
+    margin-top: 70px;
+}
+
+.textareaWrapper
+{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.textareaWrapper textarea
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rating
+{
+    margin: auto;
+    width: 50%;
+}
+
+.postWrapper
+{
+    margin: auto;
+    width: 50%;
+}
+
+.datetimeinput
+{
+    margin: auto;
+    width: 95%;
+}
+
+.bookingbooth{
+    height: auto !important;
+}
+
+.profilebody
+{
+    min-height: 600px;
+}
+
+.profilecard
+{
+    top: 20px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    width: 60%;
+}
+
+.profile table{
+    text-align: left;
+    margin: auto;
+}
+
+.profile table tr td
+{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.orders
+{
+    margin-left: 50px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.orders p
+{
+    margin-top: 15px;
+}
+
+.order
+{
+    background-color: rgb(200,200,200);
+    border-color: black;
+    width: 100%;
+}
+
+.orderdetails
+{
+    background-color: rgb(160,160,160);
+    margin-bottom: 10px;
+}
+
+.arrow
+{
+    position: absolute;
+    margin-top: -44px;-
+    right: 0%;
+    width: 8%;
+}
+
+.modalTable tr td
+{
+    padding: 5px;
+}
+
+

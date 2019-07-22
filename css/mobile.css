@@ -1,0 +1,201 @@
+@media only screen and (max-width: 990px){
+
+.navbar-brand{
+    margin: 0;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.container-fluid
+{
+    width: 100%;
+    margin: auto;
+}
+
+.comingsoon
+{
+    height: 320px;
+}
+
+.login
+{
+    display: none;
+}
+
+.login2
+{
+    display: block;
+}
+
+.times
+{
+    width: 100%;
+    margin-top:50px;
+}
+
+.booknowdiv
+{
+    width: 100%;
+    margin-top:15px;
+}
+
+
+.address
+{
+    width: 100%;
+    margin-top:50px;
+}
+
+
+.findus
+{
+    height: auto;
+}
+
+.logindiv
+{
+    height: 500px;
+}
+
+.tabs
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#register-form
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#register-form label
+{
+    display: block;
+    width: 100%;
+}
+
+
+#register-form input
+{
+    display: block;
+    width: 100%;
+}
+
+#login-form
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#loginTab
+{
+    background-color: rgb(45,45,45);
+}
+
+#registerTab
+{
+    background-color: rgb(25,25,25);
+}
+
+.card .cardimage
+{
+    margin-left: 50% !important;
+    transform: translate(-50%, 0%) !important;
+}
+
+.bookcard
+{
+    width: 40%;
+}
+
+.orders
+{
+    margin-left: 0px;
+}
+
+.trailer
+{
+    width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 575px){
+
+.card .cardimage2
+{
+    margin-left: 50% !important;
+    transform: translate(-50%, 0%) !important;
+}
+
+.card .cardtext
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.col-sm
+{
+    width:100%;
+}
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+.navbar-brand img{
+    height: 58px;
+    margin-top: 5px;
+}
+
+.film-list
+{
+    background-size: 100%;
+}
+
+.container-fluid
+{
+    width: 100%;
+}
+
+.film-list .container
+{
+    width: 65%;
+    margin: auto;
+}
+
+.film-list .container
+{
+    width: 100%;
+    margin: auto;
+}
+
+.findus
+{
+    background-size: cover;
+}
+
+.profile table tbody tr td
+{
+    display: block;
+}
+
+.profilebody
+{
+    min-height: auto;
+    height: auto;
+}
+
+.profilecard
+{
+    width: 95%;
+}
+
+
+
+}
