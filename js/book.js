@@ -34,7 +34,7 @@ commit: true,
 // PayPal Client IDs - replace with your own
 
 client: {
-  sandbox: 'AXxOLn6CqvCZlFblZhgVfRQlRnv2EVz4pTUY-Al2DcmtFb7fBj1BU24gOApX6kE7OEpEYIkHTqbxRzqG',
+  sandbox: 'API_Key',
   production: '<insert production client id>'
 },
 
