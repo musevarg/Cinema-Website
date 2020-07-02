@@ -5,4 +5,4 @@ Payments are handled by a PayPal sandbox.
 
 The website can be seen [here](https://www.sedhna.com/cinema).
 
-![](https://www.sedhna.com/cinema/screen.png)
+![](https://github.com/musevarg/Cinema-Website/blob/master/pic.png?raw=true)
